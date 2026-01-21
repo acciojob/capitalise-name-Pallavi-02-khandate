@@ -2,7 +2,7 @@
 
 function toUpperCase() {
     var inputField = document.getElementById('fname');
-    inputField.value = inputField.toUpperCase();
+    inputField.value = inputField.value.toUpperCase();
 }
 
 window.onload = function() {
