@@ -2,5 +2,5 @@
 
 function toUpperCase() {
     var inPut = document.getElementById('fname');
-    inputField.value = inPut.toUpperCase();
+    inPut.value = inPut.toUpperCase();
 }
